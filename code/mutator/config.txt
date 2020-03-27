@@ -1,0 +1,33 @@
+-c
+-ansi
+-pedantic
+-Wno-long-long
+-fwrapv
+-fPIC
+-O0
+-DONESTEPFCN=1
+-DTERMFCN=0
+-DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0
+-DINTEGER_CODE=0
+-DMT=0
+-DCLASSIC_INTERFACE=0
+-DALLOCATIONFCN=0
+-DTID01EQ=1 -DMODEL=rct_helico
+-DNUMST=2
+-DNCSTATES=14
+-DHAVESTDIO
+-DUNIX
+-I/usr/lib/clang/3.8.0/include
+-I/home/balaji/clang-llvm/mutationdocker/code/rct_helico_ert_rtw
+-I/home/balaji/mutation/michigan/rct_helico_ert_rtw 
+-I/home/balaji/mutation/michigan
+-I/home/balaji/Documents/MATLAB/Examples/HelicopterExample
+-I/usr/local/MATLAB/R2016a/extern/include 
+-I/usr/local/MATLAB/R2016a/simulink/include
+-I/usr/local/MATLAB/R2016a/rtw/c/src
+-I/usr/local/MATLAB/R2016a/rtw/c/src/ext_mode/common
+-I/usr/local/MATLAB/R2016a/rtw/c/ert
+-I/usr/local/MATLAB/R2016a/extern/include
+-I/usr/local/MATLAB/R2016a/simulink/include
+-I/usr/local/MATLAB/R2016a/rtw/c/src
+-I/usr/local/MATLAB/R2016a/rtw/c/src/ext_mode/common

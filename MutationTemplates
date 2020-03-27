@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------------------------------------------------
+Category   |   Mutation template      | 	MATLAB platform                |	C/ CPP platform           	|
+-------------------------------------------------------------------------------------------------------------------------
+Precision  | 		P0 	      | int_T -> uint32_T           	       | int -> float              		|	 	 
+& accuracy | 		P1 	      | int_T -> real_T             	       | int -> double             		|
+           | 		P2 	      | uint32_T -> int_T           	       | float -> int              		|
+           | 		P3 	      | real_T -> int_T             	       | double -> int             		|
+           | 		P4 	      | d*-> d*.0f                	       | d*-> d*.0f                		|
+           | 		P5 	      | d* -> d*.0                	       | d* -> d*.0                		|
+           | 		P6 	      | d*.0f or d*.0 -> d*        	       | d*.0f or d*.0 -> d*       		|
+           | 		P7 	      | float F() -> (double) F() 	       | float F() -> (double) F() 		|
+           | 		P8 	      | double F() -> (float) F() 	       | double F() -> (float) F() 		|
+-------------------------------------------------------------------------------------------------------------------------
+Exception  | 		E0 	      | if(rtIsNaN(X)) -> if(!rtIsNaN(X))      | if(isnan(X)) -> if(!isnan(X)) 		|	 
+handling   | 		E1 	      | if(rtIsInf(X)) -> if(!rtIsInf(X))      | if(isinf(X)) -> if(!isinf(X)) 		|
+           | 		E2 	      | if(!rtIsNaN(X)) -> if(rtIsNaN(X))      | if(!isnan(X)) -> if(isnan(X)) 		|
+           | 		E3 	      | if(!rtIsInf(X)) -> if(rtIsInf(X))      | if(!isinf(X)) -> if(isinf(X)) 		|
+           | 		E4 	      | insert if statment - check divide by 0 | insert if statment - check divide by 0 |                          
+           | 		E5 	      | remove if statment - check divide by 0 | remove if statment - check divide by 0 |
+           | 		E6 	      | miultiply denominator by zero          | miultiply denominator by zero          |
+-------------------------------------------------------------------------------------------------------------------------
+Time       | 		T0 	      | dataype of time is multiplied by 1000  | dataype of time is multiplied by 1000  |
+and        | 		T1 	      | dataype of time in ifstmt() is negated | dataype of time in ifstmt() is negated |
+Space      | 		T2 	      | variable of time is multiplied by 1000 | variable of time is multiplied by 1000 |
+           | 		T3 	      | variable of time in ifstmt() is negated| variable of time in ifstmt() is negated|
+           | 		T4 	      | for all space variables present in     | for all space variables present in     | 
+           | 		..  	      | spacevariables.txt                     | spacevariables.txt 			| 
+           | 		Tn  	      | 	      			       | 					|
+-------------------------------------------------------------------------------------------------------------------------

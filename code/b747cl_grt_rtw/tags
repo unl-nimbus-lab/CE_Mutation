@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MdlInitialize	b747cl.c	/^void MdlInitialize(void)$/;"	f
+MdlInitializeSampleTimes	b747cl.c	/^void MdlInitializeSampleTimes(void)$/;"	f
+MdlInitializeSizes	b747cl.c	/^void MdlInitializeSizes(void)$/;"	f
+MdlOutputs	b747cl.c	/^void MdlOutputs(int_T tid)$/;"	f
+MdlStart	b747cl.c	/^void MdlStart(void)$/;"	f
+MdlTerminate	b747cl.c	/^void MdlTerminate(void)$/;"	f
+MdlUpdate	b747cl.c	/^void MdlUpdate(int_T tid)$/;"	f
+b747cl	b747cl.c	/^RT_MODEL_b747cl_T *b747cl(void)$/;"	f
+b747cl_B	b747cl.c	/^B_b747cl_T b747cl_B;$/;"	v
+b747cl_DW	b747cl.c	/^DW_b747cl_T b747cl_DW;$/;"	v
+b747cl_M	b747cl.c	/^RT_MODEL_b747cl_T *const b747cl_M = &b747cl_M_;$/;"	v
+b747cl_M_	b747cl.c	/^RT_MODEL_b747cl_T b747cl_M_;$/;"	v
+b747cl_initialize	b747cl.c	/^static void b747cl_initialize(void)$/;"	f	file:
+b747cl_output	b747cl.c	/^static void b747cl_output(void)$/;"	f	file:
+b747cl_terminate	b747cl.c	/^static void b747cl_terminate(void)$/;"	f	file:
+b747cl_update	b747cl.c	/^static void b747cl_update(void)$/;"	f	file:
+rt_TDelayInterpolate	b747cl.c	/^real_T rt_TDelayInterpolate($/;"	f
+rt_nrand_Upu32_Yd_f_pw_snf	b747cl.c	/^real_T rt_nrand_Upu32_Yd_f_pw_snf(uint32_T *u)$/;"	f
+rt_powd_snf	b747cl.c	/^real_T rt_powd_snf(real_T u0, real_T u1)$/;"	f
+rt_urand_Upu32_Yd_f_pw_snf	b747cl.c	/^real_T rt_urand_Upu32_Yd_f_pw_snf(uint32_T *u)$/;"	f
